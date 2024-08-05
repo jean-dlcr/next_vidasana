@@ -29,3 +29,8 @@ This is a  project bootstrapped with [`create-next-app`](https://github.com/verc
 * Contact Form
 
 Note: You need to configure the variables in [email.js](https://www.emailjs.com/docs/sdk/installation/) to enable the contact button to work properly.
+
+## Presentation
+
+<video src="https://github.com/user-attachments/assets/ede2bdd6-4516-4a90-a69e-a1bebaf1b530" controls type="video/mp4"></video>
+
