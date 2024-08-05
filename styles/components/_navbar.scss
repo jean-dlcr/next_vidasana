@@ -1,0 +1,57 @@
+.navbar-container {
+  width: 100%;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.navbar-content {
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav{
+  ul {
+    list-style: none;
+    gap: 3rem;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+  }
+  .inactive {
+    color: #aaaaaacc;
+  }
+
+  .active {
+    color: var(--color-blue-dark);
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+}
+
+.navbar-links  a label{
+  word-break: break;
+  width: 8rem;
+}
+
+
+.navbar-content-mobile {
+  display: none;
+}
+
+
+
+@media only screen and (width< 990px){
+  .toggleHide{
+    display: none;
+  }
+  .navbar-content-mobile{
+    display: flex;
+  }    
+}
+
+@media only screen and (width< 755px){
+    
+}

@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+  overflow-x: hidden;
+  color: var(--color-blue-dark);
+}
+
+
+.no-underline {
+  text-decoration: none;  
+}
+
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.error-label{
+  font-weight: bold;
+  color: red;
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.grid{
+  display: grid;
+}
+
+
+
+.flex{
+  display: flex;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.label-title{
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.label-subtitulo{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+
+.circle-img{
+  position: relative;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  overflow: hidden;  
+}
+
+.floating-button{ 
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-radius: 100%;
+  background-color: green;
+  color: white;
+}
+
+.button-container {
+  border-radius: 50px;
+  padding: 0.7rem 2rem;
+  border: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ transition: all 0.3s ease;
+}
+
+#aboutUs, #contactUs, #benefits, #ourTeam{
+  width: 100%;
+  padding-top: 4rem;
+  align-items: center;
+}
+
+@media only screen and (width< 990px){
+
+ .label-title{
+  font-size: 2rem;
+ }
+}
+
+@media only screen and (width< 755px){
+  .container-two-column{
+    display: flex;
+    flex-direction: column;
+  }
+}

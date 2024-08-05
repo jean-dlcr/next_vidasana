@@ -1,0 +1,67 @@
+:root {
+  --color-blue-dark: #021335;
+  --color-blue-dark-3: #3A2985;
+  --color-purple: #514292;
+  --color-purple-light: #a292cb;
+  --color-palo-rosa: #DB779E;
+  --color-pink: #E69CB9;
+  --color-rosado-dark-2:#D85789;
+  --color-gray-light-2:#E6E6E6;
+
+}
+
+.white {
+  color: white;
+}
+
+.blue-dark {
+  color: var(--color-blue-dark);
+}
+
+.blue-dark-3 {
+  color: var(--color-blue-dark-3);
+}
+
+.purple {
+  color: var(--color-purple);
+}
+
+.palo-rosa {
+  color: var(--color-palo-rosa);
+}
+
+
+
+.bg-blue-dark-3 {
+  background-color: var(--color-blue-dark-3);
+}
+
+
+// .button-color-purpple-white {
+//   background-color: #a292cb;
+// }
+
+.bg-white{
+  background-color: white;
+}
+
+.bg-pink {
+  background-color: var(--color-pink);
+}
+
+.bg-purple{
+  background-color: var(--color-purple);
+}
+
+.bg-purple-light{
+  background-color: var(--color-purple-light);
+}
+
+.bg-gray-light-2{
+  background-color: var(--color-gray-light-2);
+}
+
+
+.border-rosado-dark-2 {
+  border-color: var(--color-rosado-dark-2);
+}

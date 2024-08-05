@@ -1,0 +1,36 @@
+.landing-container {
+  gap: 3rem;
+  align-items: center;
+}
+
+.container{
+  width: 85%;
+}
+
+.container-two-column{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.container-section-l,.container-section-r{
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.landing__rectangle{
+  border-radius: 20px;
+}
+
+
+@media only screen and (width< 990px){
+  .container{
+    width: 90%;
+  }
+}
+
+@media only screen and (width< 755px){
+    .container{
+      width: 95%;
+    }
+}

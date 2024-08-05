@@ -1,0 +1,24 @@
+#ourTeam{
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+
+#ourTeam .container{
+    gap: 3rem;
+}
+
+#ourTeam .container .label-title{
+    text-align: center;
+}
+
+#ourTeam .circle-img{
+    height: 100%;
+}
+
+#ourTeam .purple-bar{
+    height: 20rem;
+    width: 100%;
+    background-color: #C7C4D7;
+    bottom: 0;
+    z-index: -5;
+}

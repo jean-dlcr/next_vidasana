@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import "./base/colors";
+@import "./base/base";
+@import "./components/landing";
+
+/*------------HEADER--------------*/
+@import "./components/navbar";
+@import "./components/logo";
+@import "./components/sidebar";
+/*------------------------------*/
+
+/*------------SECTION 1 SLIDER--------------*/
+@import "./components/slider";
+/*------------------------------*/
+
+
+/*------------SECTION 2 CONTACT US--------------*/
+@import "./components/input";
+@import "./sections/contact_us";
+/*------------------------------*/
+
+
+/*------------SECTION 3 ABOUT US--------------*/
+@import "./components/tab";
+@import "./sections/about_us";
+/*------------------------------*/
+
+/*------------SECTION 4 BENEFITS--------------*/
+@import "./sections/benefits";
+/*------------------------------*/
+
+/*------------SECTION 4 OUR TEAM--------------*/
+@import "./components/cardMember";
+@import "./components/cardStack";
+@import "./sections/our_team";
+/*------------------------------*/
+
+@import "./components/footer";
+
+
+
+@import "./components/preguntas";

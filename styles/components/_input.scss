@@ -1,0 +1,29 @@
+.input{
+    border-radius: 10px;
+    height: 3rem;
+    padding: 0rem 1rem;
+    align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--color-purple);
+}
+
+.input-text-box{
+    height: 90%;
+    border: none;
+    padding: 0;
+    width: 100%;
+  
+    &:active{
+        border: none;
+    }
+
+    &:focus{
+        outline: none;
+    }
+}
+
+.input-text-active{
+    border-color:  rgb(49, 97, 255);
+}

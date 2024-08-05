@@ -1,0 +1,41 @@
+
+.card-stack {
+    grid-template-columns: 1fr;        
+    justify-items: center;
+    gap: 2rem;
+}
+
+.container-cardStack{
+  align-items: center; 
+  width: 45rem;
+  min-width: 40rem;
+  margin-top: 4rem;
+
+}
+
+
+.adorno-card{
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+
+.card-buttons{
+  gap: 2rem;
+}
+
+@media only screen and (width< 990px){
+    .container-cardStack{
+      width: 85%;
+    }
+  }
+  
+  @media only screen and (width< 755px){
+      .container-cardStack{
+        width: 100%;
+        min-width: 100%;
+      }
+  }
+
+

@@ -1,0 +1,35 @@
+
+
+#benefits .container{
+    gap: 3rem;
+}
+
+#benefits .container .label-title {
+    text-align: center;
+}
+
+#benefits .container-section-l, #benefits .container-section-r{
+    ul{
+        padding: revert;
+        gap: 1rem;
+    }
+}
+
+#benefits .div-img{
+    height: 30rem;
+}
+
+
+@media only screen and (width< 990px){
+   
+  }
+  
+  @media only screen and (width< 755px){
+   #benefits .div-text{
+    order:-1;
+   }
+
+   #benefits .div-img{
+    height: 15rem;
+}
+  }

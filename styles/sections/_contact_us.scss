@@ -1,0 +1,65 @@
+
+
+#contactUs .container{
+    border-radius: 20px;
+    gap: 5rem;
+  padding: 3rem 5%;
+  padding-bottom: 2rem;
+  
+}
+
+#contactUs .label-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+#contactUs .form-inputs{
+    gap: 3rem;
+    align-items: center;
+}
+
+#contactUs .first-row{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+#contactUs .first-row, #contactUs .last-row{
+    width: 100%;
+}
+
+#contactUs .last-row>*{
+    width: 100%;
+}
+
+#contactUs .btn-send{
+    width: fit-content;
+    padding: 1.5rem 2rem;
+    border-radius: 15px;
+}
+
+@media only screen and (width< 990px){
+    #contactUs .first-row{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+  }
+  
+  @media only screen and (width< 755px){
+    #contactUs .container{
+        gap: 3rem;
+      padding: 3rem 1.5rem;
+      
+    }
+    
+    #contactUs .first-row{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+
+    #contactUs .form-inputs{
+        gap: 1rem;
+    }
+
+  }
