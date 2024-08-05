@@ -2,7 +2,7 @@
 @import "./base/colors";
 @import "./base/base";
 @import "./components/landing";
-
+@import "./components/wsp_button";
 /*------------HEADER--------------*/
 @import "./components/navbar";
 @import "./components/logo";
@@ -39,4 +39,4 @@
 
 
 
-@import "./components/preguntas";
+@import "./sections/preguntas";

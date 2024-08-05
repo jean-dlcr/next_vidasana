@@ -2,6 +2,7 @@ import "../styles/style.scss";
 import { PreloadResources } from './preload-resources';
 import NavBar from "@/components/common/NavBar";
 import Footer from "../components/common/Footer";
+import WspFlotante from "@/components/common/WspFlotante";
 
 export const metadata = {
   title: "VidaSana - Salud y bienestar",
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
         <PreloadResources />
       </head>
       <body>
+        <WspFlotante/>
         <NavBar />
         {children}
         <Footer/>

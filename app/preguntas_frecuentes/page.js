@@ -3,7 +3,7 @@ import PregFrecuentes_ from "../../screen/PregFrecuentes";
 
 export default function PregFrecuentes() {
     return (
-        <main>
+        <main className="preg-frecuentes landing-container flex flex-column">
                 <PregFrecuentes_/>
                 <SeccionContactanos />
         </main>

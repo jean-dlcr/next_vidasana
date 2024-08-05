@@ -29,14 +29,15 @@ const PregFrecuentes_ = ({
     ]
 
     return(
-        <div className="landing-container">
-            <div className="container__large">
-            <Tittle addClass={" no-margin label-title no-margin"} 
+        
+            <div className="container flex flex-column">
+                
+                <Tittle addClass={"label-title"} 
                 titulo = {"Preguntas Frecuentes"}
                 resaltar = {"Frecuentes"}
                 color={"color-purple"} color2={"palo-rosa"}/>  
 
-                <div className="preguntas_main_content">
+                <div className="preguntas-container grid">
                    {listPreguntas.map((item,index)=>{
                        return(
                            <div>
@@ -49,9 +50,8 @@ const PregFrecuentes_ = ({
                        )
                    })}
                 </div>
-
+        
             </div>
-        </div>
         
     )
 }

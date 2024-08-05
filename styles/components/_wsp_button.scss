@@ -1,0 +1,21 @@
+.floating-container{
+    position:fixed;
+  aspect-ratio: 1;
+  bottom: 2rem;
+  right: 2rem;
+  width: 4rem;  
+}
+
+.floating-button{
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+    width: 100%;
+    font-size: 2rem;
+    border-radius: 100%;
+}
+
+.floating-button a{
+    line-height: 0;
+}

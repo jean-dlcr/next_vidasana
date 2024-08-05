@@ -12,19 +12,16 @@ const ElementoPregunta = ({
 
     const toggleBox = () =>{
         
-        SetPregOpen(!pregOpen_) 
-        
-        //pregOpen = !pregOpen
-        console.log("btn " + (pregOpen_?"-":"+"))
+        SetPregOpen(!pregOpen_)
     }
 
     const btnMas = <BsPlusLg />
     const btnMenos = <BsDashLg />
-    const btnMas_Menos = <div onClick={toggleBox}  className="btnMas pointer">{pregOpen_?btnMenos:btnMas}</div>
+    const btnMas_Menos = <div onClick={toggleBox}  className="btnMas grid pointer">{pregOpen_?btnMenos:btnMas}</div>
 
     return(
         <div>
-            <div className='pregunta-container'>
+            <div className='pregunta-container grid'>
                 {btnMas_Menos}
                 <div className='pregunta-tittle'>{pregunta}</div>
                 <div className={`pregunta-rpta ${pregOpen_?"show":"hide"}`}>{rpta}</div>

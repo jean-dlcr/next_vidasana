@@ -1,21 +1,18 @@
 "use client";
 import React from 'react'
 import Link from "next/link";
-import {useRouter} from 'next/navigation';
+import { usePathname } from 'next/navigation'
 
 const LinkComponent = ({
   href="",
   label="",
   addClassName=""
 }) => {
-  const router =  useRouter();
+ 
 
-  const currentPath = router?.pathname || '/';
+  const currentPath = usePathname();
   const isActive = currentPath === href || (currentPath === '/' && href === '/');
 
-  console.log(router);
-  console.log(href);
-  console.log(isActive);
 
   const className = `no-underline flex ${(isActive ? 'active' : 'inactive')} ${addClassName}`;
 

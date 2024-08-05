@@ -14,7 +14,7 @@ const CardStack = ({ dataCardStack }) => {
 
 
     const nextCard = () => {
-        console.log("Nextr pressed ", cardIndex)
+        
         if (cardIndex !== 1) {
             SetCardIndex(cardIndex - 1)
         }

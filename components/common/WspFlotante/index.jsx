@@ -1,12 +1,13 @@
-import {BsWhatsapp} from 'react-icons/bs'
+import { BsWhatsapp } from 'react-icons/bs'
 
-const WspFlotante = () =>{
-    return(
-        <div className="floating-container"><div className="floating-button">
-                <a href='https://wa.me/message/EXI5ERNC6ERMF1' className='color-white line-height'><BsWhatsapp size={30}/></a>
+const WspFlotante = () => {
+    return (
+        <div className="floating-container">
+            <div className="floating-button flex">
+                <a href='https://web.whatsapp.com' className='white'><BsWhatsapp /></a>
             </div>
         </div>
-        
+
     )
 }
 
